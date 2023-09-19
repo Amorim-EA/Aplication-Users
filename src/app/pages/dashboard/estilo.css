@@ -1,0 +1,16 @@
+img {
+ width: 70px;
+ height: 70px;
+ border-radius: 50px;
+}
+
+.dashboard{
+  display: flex;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-grow: 1;
+}
