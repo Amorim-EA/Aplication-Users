@@ -45,16 +45,19 @@ export default function Register() {
       <input
           placeholder='Nome'
           type="text"
+          required
           onChange={(e) => { setUser({ ...user, name: e.target.value }) }}>
         </input>
         <input
           placeholder='E-mail'
           type="email"
+          required
           onChange={(e) => { setUser({ ...user, email: e.target.value }) }}>
         </input>
         <input
           placeholder='Senha'
           type='password'
+          required
           onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
         <button>Salvar</button>
