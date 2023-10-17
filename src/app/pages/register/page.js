@@ -12,29 +12,16 @@ export default function Register() {
     password: '',
   });
 
-  const [usuarios, setUsuarios] = useState([]);
-
-  const salvarUsuarios = (usuarios) => {
-    const usuarioString = JSON.stringify(usuarios);
-    localStorage.setItem('usuarios', usuarioString);
-  }
-  const pegarUsuarios = () => {
-    const usuarioString = localStorage.getItem('usuarios');
-    return JSON.parse(usuarioString) || [];
-  }
-
-  useEffect(() => {
-    const usuariosNoLocalStorage = pegarUsuarios();
-    setUsuarios(usuariosNoLocalStorage);
-  }, []);
-    
-  const registrarUsuario = () => {
-    const novoUsuario = { nome: user.name, email: user.email, senha: user.password, token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9', };
-    const novosUsuarios = [...usuarios, novoUsuario];
-    setUsuarios(novosUsuarios);
-    salvarUsuarios(novosUsuarios);
-    toast.success("Usuário cadastrado com sucesso!!");
-  };
+  const registrarUsuario = (e) => {
+    e.preventDefault()
+    const url = "https://api-na-vercel-ptac4.vercel.app/";
+    const userJson = JSON.stringify(user);
+    fetch(`${url}/user`, {
+      method: "POST",
+      headers: { "content-Type": "application/json" },
+      body: userJson
+    }).then(function(){ route.push("/dashboard")}).catch(()=> console.log("Não foi possível cadastrar!"));
+}
 
   return (
     <div className="register">
