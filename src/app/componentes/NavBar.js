@@ -8,7 +8,7 @@ const NavBar = () => {
     const removeToken = (e) => {
       e.preventDefault();
       Cookies.remove('token');
-      refresh('/');
+      push('/');
     }
     return(
         <div className="navigation">
@@ -23,7 +23,7 @@ const NavBar = () => {
             <Link href="../pages/alter" className="navLink">Alterar</Link>
            </li>
            <li>
-            <button onClick={removeToken} className="navLink logout">Logout</button>
+           <button onClick={removeToken} className="navLink logout">Logout</button>
            </li>
          </ul>
        </div>

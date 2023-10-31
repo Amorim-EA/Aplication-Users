@@ -40,7 +40,7 @@ export default function Login() {
           type='password'
           onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
-        <button>Entrar</button>
+        <button class="button-login">Entrar</button>
       </form>
       <ToastContainer />
     </div>

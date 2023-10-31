@@ -1,5 +1,6 @@
 'use client'
-import { useState,useEffect } from "react";
+import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import NavBar from "../../componentes/NavBar";
@@ -11,9 +12,12 @@ export default function Register() {
     email: '',
     password: '',
   });
-
+  
+  const { push, refresh } = useRouter();
+  
   const registrarUsuario = (e) => {
     e.preventDefault()
+    toast.success("Usuário registrado com sucesso");
     const url = "https://api-na-vercel-ptac4.vercel.app/";
     const userJson = JSON.stringify(user);
     fetch(`${url}/user`, {

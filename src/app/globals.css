@@ -37,7 +37,7 @@ input::placeholder {
   color: #999;
 }
 
-button {
+.button-login {
   width: 100%;
   padding: 10px;
   background-color: #007BFF;
@@ -48,6 +48,6 @@ button {
   transition: background-color 0.3s ease;
 }
 
-button:hover {
+.button-login:hover {
   background-color: #0056b3;
 }

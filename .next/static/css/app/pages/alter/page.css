@@ -620,7 +620,7 @@
     display: flex;
     flex-grow: 1;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
   .containerUsers {
     padding: 15px;
@@ -658,14 +658,26 @@
   transition: color 0.3s ease;
   padding: 10px;
   border-radius: 10px;
+  background-color: #333;
+  border: none;
+  font-size: 16px;
 }
 
-.navLink:hover {
+.navLink:hover, .navLink:visited {
   background-color: #007BFF;
 }
 
 .logout:hover {
   background-color: #e73f21;
+}
+
+.imagemUser {
+  background-image: url(/_next/static/media/user.ee3c463f.png);
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
 }
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/pages/alter/estilo.css ***!

@@ -10,13 +10,15 @@ export const middleware = (request) => {
     const urlDashboard = new URL('/pages/dashboard', request.url);
     const isTokenValidated = validateToken(token);
 
-    if (false) {
+    if (!isTokenValidated || !token) {
         if (request.nextUrl.pathname === '/pages/dashboard' || request.nextUrl.pathname === '/pages/register' || request.nextUrl.pathname === '/pages/alter') {
             return NextResponse.redirect(urlLogin);
         }
     }
-    if(true) {
-     //   return NextResponse.redirect(urlDashboard);
+    if(isTokenValidated) {
+      if (request.nextUrl.pathname === '/') {
+            return NextResponse.redirect(urlDashboard);
+      }
     }
     NextResponse.next();
 };

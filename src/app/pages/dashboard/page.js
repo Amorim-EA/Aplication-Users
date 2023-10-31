@@ -5,9 +5,8 @@ import NavBar from "../../componentes/NavBar";
 import { Suspense } from "react";
 import './estilo.css';
 
-export default function Dashboard(){
-    let users = getUsers();
-
+export default async function Dashboard(){
+    let users = await getUsers();
     return(
         <div className="dashboard">
           <NavBar />
