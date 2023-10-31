@@ -20,7 +20,7 @@ export default function Alterar() {
   return (
     <div className="alter">
       <NavBar />   
-    <div>
+    <div class="container">
       <form className="alter-form" onSubmit={alterarUsuario}>
       <h2>Atualizar</h2>
         <input

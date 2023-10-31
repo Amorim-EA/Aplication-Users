@@ -12,7 +12,7 @@ const getUserAuthenticated = async (userLogin) => {
 
 const getUsers = async () => {
     const req = await fetch(`${url}/users`, {
-        cache: "no-cache",
+        cache: "no-cache"
     });
     const usuarios = await req.json();
     return  usuarios;

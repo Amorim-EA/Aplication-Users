@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.16",
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.19",
+    "jose": "^5.0.1",
     "js-cookie": "^3.0.5",
     "jsonwebtoken": "^9.0.2",
+    "jwt-decode": "^4.0.0",
+    "lucide-react": "^0.290.0",
     "next": "13.4.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
