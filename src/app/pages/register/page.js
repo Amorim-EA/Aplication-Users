@@ -1,5 +1,7 @@
 'use client'
-import { useState } from "react";
+
+import { postUser } from "../../functions/handlerAcessAPI";
+import React, { useState } from "react";
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,25 +15,27 @@ export default function Register() {
     password: '',
   });
   
-  const { push, refresh } = useRouter();
-  
-  const registrarUsuario = (e) => {
-    e.preventDefault()
-    toast.success("Usuário registrado com sucesso");
-    const url = "https://api-na-vercel-ptac4.vercel.app/";
-    const userJson = JSON.stringify(user);
-    fetch(`${url}/user`, {
-      method: "POST",
-      headers: { "content-Type": "application/json" },
-      body: userJson
-    }).then(function(){ route.push("/dashboard")}).catch(()=> console.log("Não foi possível cadastrar!"));
-}
+  const { push } = useRouter();
+
+  const handlerFormSubmit = async (event) => {
+    event.preventDefault();
+    try{
+      await postUser(user);
+      await new Promise((resolve) => {
+        toast.success("Usuário cadastrado com sucesso!!");
+        setTimeout(resolve, 5000);
+      });
+      return push("/pages/dashboard/");
+    } catch {
+      toast.error("Erro ao cadastrar usuario!!");
+    }
+  }
 
   return (
     <div className="register">
       <NavBar />
     <div className="container">
-      <form className="register-form" onSubmit={registrarUsuario}>
+      <form className="register-form" onSubmit={handlerFormSubmit}>
       <h2>Cadastrar</h2>
       <input
           placeholder='Nome'

@@ -11,7 +11,7 @@ export default function Login() {
     email: '',
     password: '',
   });
-  const { push, refresh } = useRouter();
+  const { refresh } = useRouter();
 
   const handlerLogin = async (e) => {
     e.preventDefault();
@@ -20,7 +20,6 @@ export default function Login() {
       if(userAuth.token === undefined){
         toast.error("Erro no e-mail ou senha!");
       }
-      push('/pages/dashboard');
     } catch {
       toast.error("Erro no servidor.");
       refresh('/');

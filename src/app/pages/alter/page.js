@@ -1,5 +1,5 @@
 'use client'
-import { useState } from "react";
+import React, { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import NavBar from "../../componentes/NavBar";
@@ -11,17 +11,12 @@ export default function Alterar() {
     email: '',
     password: '',
   });
- 
 
-  const alterarUsuario = async (e) => {
-    e.preventDefault();
-    toast.success("Usuário atualizado com sucesso!!");
-  }
   return (
     <div className="alter">
       <NavBar />   
     <div class="container">
-      <form className="alter-form" onSubmit={alterarUsuario}>
+      <form className="alter-form" onSubmit={handlerFormSubmit}>
       <h2>Atualizar</h2>
         <input
           placeholder='Nome'

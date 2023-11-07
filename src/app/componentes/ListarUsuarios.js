@@ -2,7 +2,7 @@ import React from 'react';
 import './estilo.css';
 
 const ListarUsuarios = async ({usuarios}) => {
-    await new Promise((resolve) => setTimeout(resolve, 3000))
+    await new Promise((resolve) => setTimeout(resolve, 3000));
     return(
         <div className="containerMestre">
               {

@@ -3,7 +3,7 @@
 import { NextResponse } from "next/server";
 import { validateToken } from "./app/functions/validateToken";
 
-export const middleware = (request) => {
+export const middleware = async (request) => {
 
     const token = request.cookies.get('token')?.value;
     const urlLogin = new URL('/', request.url);
@@ -15,11 +15,13 @@ export const middleware = (request) => {
             return NextResponse.redirect(urlLogin);
         }
     }
+
     if(isTokenValidated) {
       if (request.nextUrl.pathname === '/') {
             return NextResponse.redirect(urlDashboard);
       }
     }
+
     NextResponse.next();
 };
 export const config = {
