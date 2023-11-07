@@ -1,4 +1,5 @@
 import { jwtVerify } from "jose";
+import { decode } from "jsonwebtoken";
 
 const validateToken = async (token) => {
    
@@ -10,7 +11,10 @@ const validateToken = async (token) => {
                 return true
             }
         **/  
-       return true;  
+        const isTokenValidated = await decode(token);
+        if(isTokenValidated){
+            return true
+        }
     } catch {
         return false;
     }    
