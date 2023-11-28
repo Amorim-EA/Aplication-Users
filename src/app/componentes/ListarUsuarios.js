@@ -12,6 +12,7 @@ const ListarUsuarios = async ({usuarios}) => {
                          <div className="imagemUser"></div>
                          <h4>Nome: <span>{user.name}</span></h4>
                          <h4>Email: <span>{user.email}</span></h4>
+                         <Link href={`/pages/dashbord/alter/${user.id}`}></Link>
                      </div>)
                 })
                }

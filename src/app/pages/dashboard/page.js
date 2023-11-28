@@ -1,8 +1,8 @@
 'use client'
-import { getUsers } from "../../functions/handlerAcessAPI";
-import ListarUsuarios from "../../componentes/ListarUsuarios";
-import NavBar from "../../componentes/NavBar";
-import { Suspense } from "react";
+import { getUsers } from "@/app/functions/handlerAcessAPI";
+import ListarUsuarios from "@/app/componentes/ListarUsuarios";
+import NavBar from "@/app/componentes/NavBar";
+import React, { Suspense } from "react";
 import './estilo.css';
 
 export default async function Dashboard(){

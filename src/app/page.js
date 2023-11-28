@@ -1,5 +1,5 @@
 'use client'
-import { useState } from "react";
+import React, { useState } from "react";
 import handlerAcessUser from "./functions/handlerAcess"
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
@@ -11,15 +11,17 @@ export default function Login() {
     email: '',
     password: '',
   });
-  const { refresh } = useRouter();
+  const { push, refresh } = useRouter();
 
   const handlerLogin = async (e) => {
     e.preventDefault();
     try {
+      console.log(user);
       const userAuth = await handlerAcessUser(user);
       if(userAuth.token === undefined){
         toast.error("Erro no e-mail ou senha!");
       }
+      push("/pages/dashboard")
     } catch {
       toast.error("Erro no servidor.");
       refresh('/');
@@ -32,14 +34,16 @@ export default function Login() {
         <input
           placeholder='E-mail'
           type="email"
+          required
           onChange={(e) => { setUser({ ...user, email: e.target.value }) }}>
         </input>
         <input
           placeholder='Senha'
           type='password'
+          required
           onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
-        <button class="button-login">Entrar</button>
+        <button className="button-login">Entrar</button>
       </form>
       <ToastContainer />
     </div>

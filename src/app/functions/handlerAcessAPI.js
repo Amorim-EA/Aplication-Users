@@ -1,7 +1,11 @@
+//const url = "localhost:3003";
 const url = "https://api-na-vercel-ptac4.vercel.app";
 
 const getUserAuthenticated = async (userLogin) => {
+  'use server'
+  console.log(userLogin);
   try{    
+    
     const responseOfAPI = await fetch(`${url}/user/authenticated`, {
         method: 'POST',
         headers: { "Content-Type":"Application/json" },
@@ -26,6 +30,21 @@ const getUsers = async () => {
     }
 }
 
+const getOneUser = async (id) => {
+  try{
+    const responseOfAPI = await fetch(`${url}/user/${id}`, {
+      method: "POST",
+      cache: "no-cache",
+      headers: { "Content-Type": "Application/json" },
+      body: JSON.stringify(id)
+    });
+    let usuario = await responseOfAPI.json();
+    return  usuario;
+  } catch {
+    return null;
+  }
+}
+
 const postUser = async (user) => {
   try{
     const responseOfAPI = await fetch(`${url}/user`, {
@@ -42,10 +61,10 @@ const postUser = async (user) => {
 
 const putUser = async (user, id) => {
   try{
-    const responseOfAPI = await fetch(`${url}/user`, {
-      method: "POST",
+    const responseOfAPI = await fetch(`${url}/user/${id}`, {
+      method: "PUT",
       headers: { "Content-Type": "Application/json" },
-      body: userJson
+      body: JSON.stringify(user)
     });
     const userUpdated = await responseOfAPI.json();
     return userUpdated;
@@ -54,4 +73,4 @@ const putUser = async (user, id) => {
   }
 }
 
-export { getUsers, getUserAuthenticated, postUser, putUser };
+export { getUsers, getUserAuthenticated, postUser, putUser, getOneUser };

@@ -1,5 +1,4 @@
 'use server'
-
 import { NextResponse } from "next/server";
 import { validateToken } from "./app/functions/validateToken";
 
