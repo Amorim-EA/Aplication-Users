@@ -18,17 +18,17 @@
       "static/css/app/pages/dashboard/page.css",
       "static/chunks/app/pages/dashboard/page.js"
     ],
-    "/pages/alter/page": [
+    "/pages/dashboard/alter/[id]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pages/alter/page.css",
-      "static/chunks/app/pages/alter/page.js"
+      "static/css/app/pages/dashboard/alter/[id]/page.css",
+      "static/chunks/app/pages/dashboard/alter/[id]/page.js"
     ],
-    "/pages/register/page": [
+    "/pages/dashboard/register/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/pages/register/page.css",
-      "static/chunks/app/pages/register/page.js"
+      "static/css/app/pages/dashboard/register/page.css",
+      "static/chunks/app/pages/dashboard/register/page.js"
     ]
   }
 }

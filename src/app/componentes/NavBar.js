@@ -16,10 +16,10 @@ const NavBar = () => {
         <div className="navigation">
          <ul className="navLinks">
            <li>
-            <Link href="../pages/dashboard" className="navLink">Dashboard</Link>
+            <Link href="/pages/dashboard" className="navLink">Dashboard</Link>
            </li>
            <li>
-            <Link href="../pages/dashboard/register" className="navLink">Cadastrar</Link>
+            <Link href="/pages/dashboard/register" className="navLink">Cadastrar</Link>
            </li>
            <li>
            <button onClick={removeToken} className="navLink logout">Logout</button>

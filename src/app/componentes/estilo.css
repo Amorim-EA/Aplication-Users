@@ -10,6 +10,8 @@
     display: flex;
     gap: 30px;
     background-color: #333; 
+    justify-content: space-between;
+    align-items: center;
   }
 
 .navigation {
@@ -20,7 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100vw;
 }
 .navLinks {
   list-style: none;
@@ -60,4 +62,16 @@
   width: 60px;
   height: 60px;
   border-radius: 60px;
+}
+
+.botaoAlter {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
 }

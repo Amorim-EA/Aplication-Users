@@ -55,7 +55,7 @@ export default function Register() {
           required
           onChange={(e) => { setUser({ ...user, password: e.target.value }) }}>
         </input>
-        <button>Salvar</button>
+        <button className="button-submit">Salvar</button>
       </form>
       <ToastContainer />
     </div>

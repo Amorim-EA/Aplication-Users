@@ -5,8 +5,18 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
     gap: 30px;
-    flex-grow: 1;
+}
+
+.titulo {
+   padding-bottom: 0;
+}
+
+.carregando {
+   margin: auto;
+   margin-top: 10px;
 }
 
 .mt-20 {

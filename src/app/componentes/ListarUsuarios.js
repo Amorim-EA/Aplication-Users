@@ -11,9 +11,9 @@ const ListarUsuarios = async ({usuarios}) => {
                     return(
                     <div className="containerUsers">
                          <div className="imagemUser"></div>
-                         <h4>Nome: <span>{user.name}</span></h4>
-                         <h4>Email: <span>{user.email}</span></h4>
-                         <Link href={`/pages/dashbord/alter/${user.id}`}>Aterar</Link>
+                         <h4><span>{user.name}</span></h4>
+                         <h4><span>{user.email}</span></h4>
+                         <Link className="botaoAlter" href={`/pages/dashboard/alter/${user.id}`}>Alterar</Link>
                      </div>)
                 })
                }

@@ -5,7 +5,7 @@ body {
   color: #fff;
 }
 
-.container {
+.container-login {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@ body {
   margin-bottom: 20px;
 }
 
-input {
+.input-login {
   width: 95%;
   padding: 10px;
   margin: 10px 0;
@@ -33,7 +33,7 @@ input {
   border-radius: 4px;
 }
 
-input::placeholder {
+.input-login:placeholder {
   color: #999;
 }
 

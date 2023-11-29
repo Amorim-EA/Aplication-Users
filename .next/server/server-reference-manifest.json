@@ -4,60 +4,70 @@
       "workers": {
         "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
         "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
-        "app/pages/register/page": "actionBrowser"
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
+        "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
     "eb7d6feef7aae8096a7504f887e32fc152dff504": {
       "workers": {
         "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
         "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
-        "app/pages/register/page": "actionBrowser"
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
+        "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
     "571efb5c2d8235c77842084acbd1e777fc54c336": {
       "workers": {
         "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
         "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
-        "app/pages/register/page": "actionBrowser"
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
+        "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
     "6640e5e04f2f5c02bd57b019e298e6387892fc23": {
       "workers": {
         "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
         "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
-        "app/pages/register/page": "actionBrowser"
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
+        "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
     "116a10cc39e37c420af4f2fdc06ef682935bae65": {
       "workers": {
         "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
         "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
-        "app/pages/register/page": "actionBrowser"
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
+        "app/pages/dashboard/register/page": "actionBrowser"
       }
     }
   },

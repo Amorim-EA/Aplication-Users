@@ -21,23 +21,26 @@ export default function Login() {
       if(userAuth.token === undefined){
         toast.error("Erro no e-mail ou senha!");
       }
-      push("/pages/dashboard")
+      toast.success(`Seja Bem-vindo ${userAuth.name}`);
+      push("/pages/dashboard");
     } catch {
       toast.error("Erro no servidor.");
       refresh('/');
     }
   }
   return (
-    <div className="container">
+    <div className="container-login">
       <form className="login-form" onSubmit={handlerLogin}>
       <h2>Login</h2>
         <input
+          className="input-login"
           placeholder='E-mail'
           type="email"
           required
           onChange={(e) => { setUser({ ...user, email: e.target.value }) }}>
         </input>
         <input
+          className="input-login"
           placeholder='Senha'
           type='password'
           required

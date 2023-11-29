@@ -13,6 +13,8 @@
     display: flex;
     gap: 30px;
     background-color: #333; 
+    justify-content: space-between;
+    align-items: center;
   }
 
 .navigation {
@@ -23,7 +25,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: 100vw;
 }
 .navLinks {
   list-style: none;
@@ -64,6 +66,18 @@
   height: 60px;
   border-radius: 60px;
 }
+
+.botaoAlter {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #007BFF;
+  border: none;
+  font-size: 16px;
+}
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/pages/dashboard/estilo.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
@@ -74,11 +88,20 @@
 .container {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    margin-top: 10px;
     gap: 30px;
-    flex-grow: 1;
+}
+
+.titulo {
+   padding-bottom: 0;
+}
+
+.carregando {
+   margin: auto;
+   margin-top: 10px;
 }
 
 .mt-20 {
   margin-top: 20px;
 }
-
