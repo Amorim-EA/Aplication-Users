@@ -10,7 +10,7 @@ export const middleware = async (request) => {
     const isTokenValidated = await validateToken(token);
 
     if (!isTokenValidated || !token) {
-        if (request.nextUrl.pathname === '/pages/dashboard' || request.nextUrl.pathname === '/pages/register' || request.nextUrl.pathname === '/pages/alter') {
+        if (request.nextUrl.pathname === '/pages/dashboard' || request.nextUrl.pathname === '/pages/dashboard/register' || request.nextUrl.pathname === '/pages/dashboard/alter') {
             return NextResponse.redirect(urlLogin);
         }
     }
@@ -24,6 +24,6 @@ export const middleware = async (request) => {
     NextResponse.next();
 };
 export const config = {
-    matcher: ['/', '/pages/dashboard', '/pages/register', '/pages/alter']
+    matcher: ['/', '/pages/dashboard', '/pages/dashboard/register', '/pages/dashboard/alter']
 };
 

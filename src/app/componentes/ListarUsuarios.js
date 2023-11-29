@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from "next/link";
 import './estilo.css';
 
 const ListarUsuarios = async ({usuarios}) => {
@@ -6,13 +7,13 @@ const ListarUsuarios = async ({usuarios}) => {
     return(
         <div className="containerMestre">
               {
-                usuarios?.map((user, index) => {
+                usuarios?.map((user) => {
                     return(
                     <div className="containerUsers">
                          <div className="imagemUser"></div>
                          <h4>Nome: <span>{user.name}</span></h4>
                          <h4>Email: <span>{user.email}</span></h4>
-                         <Link href={`/pages/dashbord/alter/${user.id}`}></Link>
+                         <Link href={`/pages/dashbord/alter/${user.id}`}>Aterar</Link>
                      </div>)
                 })
                }

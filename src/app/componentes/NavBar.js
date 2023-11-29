@@ -1,3 +1,4 @@
+'use client'
 import React from 'react';
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -18,10 +19,7 @@ const NavBar = () => {
             <Link href="../pages/dashboard" className="navLink">Dashboard</Link>
            </li>
            <li>
-            <Link href="../pages/register" className="navLink">Cadastrar</Link>
-           </li>
-           <li>
-            <Link href="../pages/alter" className="navLink">Alterar</Link>
+            <Link href="../pages/dashboard/register" className="navLink">Cadastrar</Link>
            </li>
            <li>
            <button onClick={removeToken} className="navLink logout">Logout</button>

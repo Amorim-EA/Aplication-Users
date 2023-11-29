@@ -1,4 +1,3 @@
-'use client'
 import { getUsers } from "@/app/functions/handlerAcessAPI";
 import ListarUsuarios from "@/app/componentes/ListarUsuarios";
 import NavBar from "@/app/componentes/NavBar";

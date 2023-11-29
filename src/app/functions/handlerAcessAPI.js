@@ -1,15 +1,13 @@
+'use server'
 //const url = "localhost:3003";
 const url = "https://api-na-vercel-ptac4.vercel.app";
 
-const getUserAuthenticated = async (userLogin) => {
-  'use server'
-  console.log(userLogin);
-  try{    
-    
+const getUserAuthenticated = async (user) => {
+   try{    
     const responseOfAPI = await fetch(`${url}/user/authenticated`, {
         method: 'POST',
         headers: { "Content-Type":"Application/json" },
-        body: JSON.stringify(userLogin)
+        body: JSON.stringify(user)
     });
     let userAuthenticated = await responseOfAPI.json();
     return userAuthenticated;

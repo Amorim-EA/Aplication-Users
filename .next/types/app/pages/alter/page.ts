@@ -1,4 +1,4 @@
-// File: /data/data/com.termux/files/home/Projeto_PTAC4/src/app/pages/alter/page.js
+// File: /data/data/com.termux/files/home/Aplication-Users/src/app/pages/alter/page.js
 import * as entry from '../../../../../src/app/pages/alter/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
