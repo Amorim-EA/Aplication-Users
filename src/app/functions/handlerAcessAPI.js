@@ -29,7 +29,7 @@ const getUsers = async () => {
 
 const getOneUser = async (id) => {
   try{
-    const responseOfAPI = await fetch(`${url}/user/${id}`, {
+    const responseOfAPI = await fetch(`${url}/user`, {
       method: "POST",
       cache: "no-cache",
       headers: { "Content-Type": "Application/json" },
