@@ -1,5 +1,5 @@
 'use server'
-const url = "https://api-server-ss.vercel.app";
+const url = "https://api-na-vercel-ptac4.vercel.app";
 
 const getUserAuthenticated = async (user) => {
    try{    
