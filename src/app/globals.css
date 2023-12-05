@@ -51,3 +51,55 @@ body {
 .button-login:hover {
   background-color: #0056b3;
 }
+
+@media screen and (mix-width: 1000px) {
+
+  .container-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 80%;
+  }
+  
+  .login-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .input-login {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .input-login:placeholder {
+    color: #999;
+  }
+  
+  .button-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-login:hover {
+    background-color: #0056b3;
+  }
+
+}

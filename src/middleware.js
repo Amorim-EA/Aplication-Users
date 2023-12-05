@@ -8,7 +8,7 @@ export const middleware = async (request) => {
     const urlLogin = new URL('/', request.url);
     const urlDashboard = new URL('/pages/dashboard', request.url);
     const isTokenValidated = await validateToken(token);
-   /** 
+
     if (!isTokenValidated || !token) {
         if (request.nextUrl.pathname === '/pages/dashboard' || request.nextUrl.pathname === '/pages/dashboard/register' || request.nextUrl.pathname === '/pages/dashboard/alter/') {
             return NextResponse.redirect(urlLogin);
@@ -20,7 +20,7 @@ export const middleware = async (request) => {
             return NextResponse.redirect(urlDashboard);
       }
     }
-    **/
+    
     NextResponse.next();
 };
 export const config = {

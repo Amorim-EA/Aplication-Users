@@ -47,3 +47,60 @@
   button:hover {
     background-color: #0056b3;
   }
+
+@media screen and (mix-width: 1000px) {
+
+.alter {
+  display: flex;
+  flex-direction: row;
+} 
+  
+.container {
+  margin: auto;
+  margin-top: 40px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.alter-form {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  
+.alter-form h2 {
+  color: #fff;
+  margin: 0;
+}
+  
+input {
+  width: 90%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+  
+input::placeholder {
+  color: #999;
+}
+  
+.button-submit {
+  width: 90%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+  
+button:hover {
+  background-color: #0056b3;
+}
+
+}

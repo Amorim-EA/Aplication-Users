@@ -34,7 +34,7 @@
    left: 24px;
 }   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 @charset "UTF-8";
 
 @font-face {
