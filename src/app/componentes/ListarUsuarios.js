@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from "next/link";
-import './estilo.css';
+import './css/estilos.css';
 
 const ListarUsuarios = async ({usuarios}) => {
     await new Promise((resolve) => setTimeout(resolve, 3000));

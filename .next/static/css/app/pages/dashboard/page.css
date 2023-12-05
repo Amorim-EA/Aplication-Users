@@ -1,6 +1,235 @@
-/*!**************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/componentes/estilo.css ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************/
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/componentes/css/reset.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+img {
+	width: inherit;
+}
+
+button {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	padding: 0;
+	border: none;
+	background-color: unset;
+}
+
+input {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+textarea {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+
+select {
+	border: none;
+	color: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	font-family: inherit;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/componentes/css/estilos.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'icones1';
+    src: url(/_next/static/media/icones.e649ec61.ttf);
+}
+
+.icone-home::before {
+  content: '\e902';
+  font-family: 'icones1';
+  width: 24px;
+   height: 24px;
+   font-size: 24px;
+   position: absolute;
+   left: 24px;
+}
+.icone-cadastrar::before {
+  font-family: 'icones1';
+  content: '\e973';
+  width: 24px;
+   height: 24px;
+   font-size: 24px;
+   position: absolute;
+   left: 24px;
+}
+
+.icone-logout::before {
+   font-family: 'icones1';
+  content: '\ea14';
+  width: 24px;
+   height: 24px;
+   font-size: 24px;
+   position: absolute;
+   left: 24px;
+}   
+
+@media screen and (max-width: 600px) {
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'icones2';
+    src: url(/_next/static/media/icones2.f3d02ef3.ttf);
+}
+
+body {
+  background-color: #1D232A;
+  color: #FFFFFF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191C;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.16);
+    width: 100vh;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+
+.menu-lateral_link {
+  height: 64px;
+  color: #95999C;
+  padding-left: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.icone-menu::before {
+  content: '\e904';
+  font-family: 'icones2';
+  font-size: 24px;
+}
+.menu-lateral--ativo {
+  left: 0;
+  transition: 0.25s;
+}
+.menu-lateral_link--ativo {
+  color: #FFFFFF;
+  padding-left: 56px;
+  border-left: 8px solid white;
+}
+}
+
+@media screen and (min-width: 700px) {
+body {
+  background-color: #1D232A;
+  color: #FFFFFF;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #15191C;
+    padding: 8px 16px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.16);
+    width: 280px;
+}
+
+.cabecalho h1 {
+   font-size: 21px;
+   text-align: center;
+}
+
+.menu-lateral {
+    display: flex;
+    flex-direction: column;
+    background-color: #15191C;
+    width: 280px;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    transition: .25s;
+}
+
+.menu-lateral_link {
+  height: 64px;
+  color: #95999C;
+  padding-left: 64px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-lateral_link--ativo {
+  color: #FFFFFF;
+  padding-left: 56px;
+  border-left: 8px solid white;
+}
+
 .containerMestre {
     display: flex;
     flex-grow: 1;
@@ -16,47 +245,6 @@
     justify-content: space-between;
     align-items: center;
   }
-
-.navigation {
-  background-color: #333;
-  color: #fff;
-  width: 18%;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vw;
-}
-.navLinks {
-  list-style: none;
-  padding: 0;
-  width: 100%;
-  text-align: center;
-}
-
-.navLinks li {
-  margin-bottom: 20px;
-}
-
-.navLink {
-  text-decoration: none;
-  color: #fff;
-  font-weight: bold;
-  transition: color 0.3s ease;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #333;
-  border: none;
-  font-size: 16px;
-}
-
-.navLink:hover, .navLink:visited {
-  background-color: #007BFF;
-}
-
-.logout:hover {
-  background-color: #e73f21;
-}
 
 .imagemUser {
   background-image: url(/_next/static/media/user.ee3c463f.png);
@@ -78,11 +266,20 @@
   border: none;
   font-size: 16px;
 }
+
+}
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/pages/dashboard/estilo.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
+img {
+   width: 100px;
+   height: 100px;
+}
+@media screen and (max-width: 705px) {
 .dashboard {
   display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .container {
@@ -104,4 +301,7 @@
 
 .mt-20 {
   margin-top: 20px;
+  width: 30px;
+  height: 30px;
+}
 }

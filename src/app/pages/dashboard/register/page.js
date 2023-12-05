@@ -33,7 +33,7 @@ export default function Register() {
 
   return (
     <div className="register">
-      <NavBar />
+      <NavBar linkAtivo={1} />
     <div className="container">
       <form className="register-form" onSubmit={handlerFormSubmit}>
       <h2>Cadastrar</h2>

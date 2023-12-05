@@ -1,5 +1,12 @@
+img {
+   width: 100px;
+   height: 100px;
+}
+@media screen and (max-width: 705px) {
 .dashboard {
   display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .container {
@@ -21,4 +28,7 @@
 
 .mt-20 {
   margin-top: 20px;
+  width: 30px;
+  height: 30px;
+}
 }

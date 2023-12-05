@@ -1,7 +1,4 @@
-.register {
-  display: flex;
-} 
- .container {
+.container {
     margin: auto;
     margin-top: 40px;
     width: 460px;
@@ -47,3 +44,10 @@
   button:hover {
     background-color: #0056b3;
   }
+
+@media screen and (mix-width: 705px) {
+.register {
+  display: flex;
+}
+
+}

@@ -35,7 +35,7 @@ userFind();
 
   return (
     <div className="alter">
-      <NavBar />   
+      <NavBar linkAtivo={null} />   
     <div class="container">
       <form className="alter-form" onSubmit={handlerFormSubmit}>
       <h2>Atualizar</h2>
