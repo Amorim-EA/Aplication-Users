@@ -23,9 +23,9 @@ export default function Register() {
       await postUser(user);
       await new Promise((resolve) => {
         toast.success("Usuário cadastrado com sucesso!!");
-        setTimeout(resolve, 5000);
+        setTimeout(resolve, 7000);
+        push("/pages/dashboard/");
       });
-      return push("/pages/dashboard/");
     } catch {
       toast.error("Erro ao cadastrar usuario!!");
     }

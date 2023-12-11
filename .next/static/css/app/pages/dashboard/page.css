@@ -126,7 +126,7 @@ select {
    left: 24px;
 }   
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 @charset "UTF-8";
 
 @font-face {
@@ -181,9 +181,45 @@ body {
   padding-left: 56px;
   border-left: 8px solid white;
 }
+.containerMestre {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-@media screen and (min-width: 1001px) {
+.containerUsers {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; 
+  align-items: center;
+  width: 80vw;
+}
+
+.imagemUser {
+background-image: url(/_next/static/media/user.ee3c463f.png);
+background-position: center;
+background-size: cover;
+width: 60px;
+height: 60px;
+border-radius: 60px;
+}
+
+.botaoAlter {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+transition: color 0.3s ease;
+padding: 10px;
+border-radius: 10px;
+background-color: #007BFF;
+border: none;
+font-size: 16px;
+}
+}
+
+@media screen and (min-width: 801px) {
 body {
   background-color: #1D232A;
   color: #FFFFFF;
@@ -232,17 +268,17 @@ body {
 .containerMestre {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
   }
-  .containerUsers {
+
+.containerUsers {
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    gap: 30px;
+    justify-content: space-around;
     background-color: #333; 
-    justify-content: space-between;
     align-items: center;
-    width: 150vh;
+    width: 50vw;
   }
 
 .imagemUser {
@@ -275,7 +311,7 @@ img {
    height: 100px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 .dashboard {
   display: flex;
   flex-direction: column;
@@ -306,3 +342,33 @@ img {
   height: 30px;
 }
 }
+
+@media screen and (min-width: 801px) {
+   .dashboard {
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+   }
+   
+   .container {
+       display: flex;
+       flex-direction: column;
+       margin-top: 10px;
+       gap: 30px;
+   }
+   
+   .titulo {
+      padding-bottom: 0;
+   }
+   
+   .carregando {
+      margin: auto;
+      margin-top: 10px;
+   }
+   
+   .mt-20 {
+     margin-top: 20px;
+     width: 30px;
+     height: 30px;
+   }
+   }

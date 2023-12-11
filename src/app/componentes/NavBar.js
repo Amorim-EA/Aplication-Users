@@ -12,8 +12,7 @@ const NavBar = ({ linkAtivo }) => {
       setMenuAtivo(!menuAtivo);
    }
    
-    const removeToken = (e) => {
-      e.preventDefault();
+    const removeToken = () => {
       Cookies.remove('token');
     }
     return(
@@ -42,7 +41,7 @@ const NavBar = ({ linkAtivo }) => {
           href="/"
           className={`menu-lateral_link icone-logout ${linkAtivo === 2 ? 'menu-lateral_link--ativo' : ''}`}
           onClick={() => {
-           removeToken()
+           removeToken
           }}
         >
           LogOut

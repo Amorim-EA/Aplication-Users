@@ -18,8 +18,6 @@ export default function Alterar({ params }) {
      const userTaken = await getOneUser(params.id);
      setUser({ ...user, name: userTaken.name, email: userTaken.email, password: userTaken.password });
  }
- 
-userFind();
 
   const handlerFormSubmit = async (event) => {
     event.preventDefault();

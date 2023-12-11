@@ -741,7 +741,7 @@ select {
    left: 24px;
 }   
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 @charset "UTF-8";
 
 @font-face {
@@ -796,9 +796,45 @@ body {
   padding-left: 56px;
   border-left: 8px solid white;
 }
+.containerMestre {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
-@media screen and (min-width: 1001px) {
+.containerUsers {
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #333; 
+  align-items: center;
+  width: 80vw;
+}
+
+.imagemUser {
+background-image: url(/_next/static/media/user.ee3c463f.png);
+background-position: center;
+background-size: cover;
+width: 60px;
+height: 60px;
+border-radius: 60px;
+}
+
+.botaoAlter {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+transition: color 0.3s ease;
+padding: 10px;
+border-radius: 10px;
+background-color: #007BFF;
+border: none;
+font-size: 16px;
+}
+}
+
+@media screen and (min-width: 801px) {
 body {
   background-color: #1D232A;
   color: #FFFFFF;
@@ -847,17 +883,17 @@ body {
 .containerMestre {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
   }
-  .containerUsers {
+
+.containerUsers {
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    gap: 30px;
+    justify-content: space-around;
     background-color: #333; 
-    justify-content: space-between;
     align-items: center;
-    width: 150vh;
+    width: 50vw;
   }
 
 .imagemUser {
@@ -887,8 +923,11 @@ body {
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
 .alter {
   display: flex;
-} 
- .container {
+  flex-direction: row;
+  gap: 5px;
+}
+
+.container {
     margin: auto;
     margin-top: 40px;
     width: 460px;
@@ -911,6 +950,7 @@ body {
     width: 400px;
     padding: 10px;
     border: none;
+    color: black;
     border-radius: 4px;
     margin-top: 10px;
   }
@@ -935,48 +975,47 @@ body {
     background-color: #0056b3;
   }
 
-@media screen and (mix-width: 1000px) {
-
+@media screen and (max-width: 800px) {
 .alter {
   display: flex;
-  flex-direction: row;
-} 
-  
+  flex-direction: column;
+  gap: 30px;
+}
+
 .container {
   margin: auto;
-  margin-top: 40px;
   width: 80%;
   display: flex;
   flex-direction: column;
 }
-
 .alter-form {
   background-color: #333;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-  
+
 .alter-form h2 {
   color: #fff;
   margin: 0;
 }
-  
+
 input {
   width: 90%;
-  padding: 10px;
+  padding: 5px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   margin-top: 10px;
+  color: black;
 }
-  
+
 input::placeholder {
   color: #999;
 }
-  
+
 .button-submit {
-  width: 90%;
-  padding: 10px;
+  width: 94%;
+  padding: 5px;
   background-color: #007BFF;
   color: #fff;
   border: none;
@@ -985,9 +1024,10 @@ input::placeholder {
   transition: background-color 0.3s ease;
   margin-top: 10px;
 }
-  
+
 button:hover {
   background-color: #0056b3;
 }
+
 
 }

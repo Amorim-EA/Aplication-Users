@@ -1,3 +1,9 @@
+.register {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
 .container {
     margin: auto;
     margin-top: 40px;
@@ -21,6 +27,7 @@
     width: 400px;
     padding: 10px;
     border: none;
+    color: black;
     border-radius: 4px;
     margin-top: 10px;
   }
@@ -45,15 +52,15 @@
     background-color: #0056b3;
   }
 
-@media screen and (mix-width: 705px) {
+@media screen and (max-width: 800px) {
 .register {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .container {
   margin: auto;
-  margin-top: 40px;
   width: 80%;
   display: flex;
   flex-direction: column;
@@ -72,10 +79,11 @@
 
 input {
   width: 90%;
-  padding: 10px;
+  padding: 5px;
   border: none;
-  border-radius: 4px;
+  border-radius: 2px;
   margin-top: 10px;
+  color: black;
 }
 
 input::placeholder {
@@ -83,8 +91,8 @@ input::placeholder {
 }
 
 .button-submit {
-  width: 90%;
-  padding: 10px;
+  width: 94%;
+  padding: 5px;
   background-color: #007BFF;
   color: #fff;
   border: none;
