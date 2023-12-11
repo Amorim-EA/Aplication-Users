@@ -1,4 +1,4 @@
-// File: C:\Users\laboratorio\Downloads\Front_e_Back-end-Erick_Amorim\Aplication-Users\src\app\page.js
+// File: /data/data/com.termux/files/home/Aplication-Users/src/app/page.js
 import * as entry from '../../../src/app/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

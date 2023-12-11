@@ -6,7 +6,7 @@ img {
 @media screen and (max-width: 1000px) {
 .dashboard {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -16,6 +16,7 @@ img {
     margin: auto;
     margin-top: 10px;
     gap: 30px;
+    flex-grow: 1;
 }
 
 .titulo {

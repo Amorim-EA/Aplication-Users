@@ -126,7 +126,7 @@ select {
    left: 24px;
 }   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 @charset "UTF-8";
 
 @font-face {
@@ -146,7 +146,6 @@ body {
     background-color: #15191C;
     padding: 8px 16px;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.16);
-    width: 100vh;
 }
 
 .menu-lateral {
@@ -184,7 +183,7 @@ body {
 }
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 1001px) {
 body {
   background-color: #1D232A;
   color: #FFFFFF;
@@ -209,7 +208,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #15191C;
-    width: 280px;
+    width: 312px;
     height: 100vh;
     position: absolute;
     left: 0;
@@ -232,7 +231,6 @@ body {
 
 .containerMestre {
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
     gap: 15px;
   }
@@ -244,6 +242,7 @@ body {
     background-color: #333; 
     justify-content: space-between;
     align-items: center;
+    width: 150vh;
   }
 
 .imagemUser {
@@ -276,10 +275,10 @@ img {
    height: 100px;
 }
 
-@media screen and (max-width: 705px) {
+@media screen and (max-width: 1000px) {
 .dashboard {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -289,6 +288,7 @@ img {
     margin: auto;
     margin-top: 10px;
     gap: 30px;
+    flex-grow: 1;
 }
 
 .titulo {

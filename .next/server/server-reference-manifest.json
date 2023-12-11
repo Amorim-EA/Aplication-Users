@@ -1,62 +1,72 @@
 {
   "node": {
-    "e5c3f33bf60ab8d1070c1882963ba354a3c6606d": {
+    "4515d47c46d4c760d1ca72c1807664a003a2ba24": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
         "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
-    "78032268009a69a13a6b002cfb0b886ba73b2e02": {
+    "eb7d6feef7aae8096a7504f887e32fc152dff504": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
         "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
-    "0fb9fbd1065e16bd975e7f50d2acc6817e109327": {
+    "571efb5c2d8235c77842084acbd1e777fc54c336": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
         "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
-    "327cf4aeb56b5865b6a7d2c75ad254681f924e3e": {
+    "6640e5e04f2f5c02bd57b019e298e6387892fc23": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
         "app/pages/dashboard/register/page": "actionBrowser"
       }
     },
-    "12e64b756b68828ee1f7bab27357f28a78c882af": {
+    "116a10cc39e37c420af4f2fdc06ef682935bae65": {
       "workers": {
-        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
-        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
-        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5Claboratorio%5C%5CDownloads%5C%5CFront_e_Back-end-Erick_Amorim%5C%5CAplication-Users%5C%5Csrc%5C%5Capp%5C%5Cfunctions%5C%5ChandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
+        "app/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=!",
+        "app/pages/dashboard/alter/[id]/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!",
+        "app/pages/dashboard/register/page": "(actionBrowser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2Fdata%2Fdata%2Fcom.termux%2Ffiles%2Fhome%2FAplication-Users%2Fsrc%2Fapp%2Ffunctions%2FhandlerAcessAPI.js%22%2C%5B%22getUsers%22%2C%22getUserAuthenticated%22%2C%22postUser%22%2C%22putUser%22%2C%22getOneUser%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
         "app/page": "actionBrowser",
         "app/pages/dashboard/page": "rsc",
+        "app/pages/dashboard/alter/[id]/page": "actionBrowser",
         "app/pages/dashboard/register/page": "actionBrowser"
       }
     }

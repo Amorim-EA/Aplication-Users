@@ -670,7 +670,7 @@ body {
   background-color: #0056b3;
 }
 
-@media screen and (mix-width: 705px) {
+@media screen and (mix-width: 1000px) {
 
   .container-login {
     display: flex;
