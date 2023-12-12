@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from "react";
-import { useRouter } from 'next/router';
+import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import NavBar from "@/app/componentes/NavBar";
@@ -14,17 +14,22 @@ export default function Alterar({ params }) {
     password: '',
   });
 
- const userFind = async () => {
-     const userTaken = await getOneUser(params.id);
-     setUser({ ...user, name: userTaken.name, email: userTaken.email, password: userTaken.password });
- }
+ useEffect(() => {
+  const userFind = async () => {
+    const userTaken = await getOneUser(params.id);
+    setUser({ ...user, name: userTaken.name, email: userTaken.email, password: userTaken.password });
+  }
+  userFind();
+ },[])
+
+  const { push } = useRouter();
 
   const handlerFormSubmit = async (event) => {
     event.preventDefault();
     try {
       await putUser(user, params.id);
-      toast.success("Usuário atualizado com sucesso!!");
-      setTimeout(() => router.push("/pages/dashboard/"), 5000);
+      setTimeout(() => toast.success("Usuário atualizado com sucesso!!"), 5000);
+      push("/pages/dashboard/");
     } catch (error) {
       console.error("Erro ao atualizar usuário", error);
       toast.error("Erro ao atualizar usuário!!");
@@ -34,7 +39,7 @@ export default function Alterar({ params }) {
   return (
     <div className="alter">
       <NavBar linkAtivo={null} />   
-    <div class="container">
+    <div className="container">
       <form className="alter-form" onSubmit={handlerFormSubmit}>
       <h2>Atualizar</h2>
         <input

@@ -21,6 +21,9 @@ export default function Login() {
       if(userAuth.token === undefined){
         toast.error("Erro no e-mail ou senha!");
       }
+      if(userAuth.token){
+        toast.sucess(`Seja bem vindo ${userAuth.name}`);
+      }
       push("/pages/dashboard");
     } catch {
       toast.error("Erro no servidor.");

@@ -5,7 +5,6 @@ import React, { Suspense } from "react";
 import './estilo.css';
 
 export default async function Dashboard(){
-    let users = await getUsers();
     return(
         <div className="dashboard">
           <NavBar linkAtivo={0} />
@@ -15,7 +14,7 @@ export default async function Dashboard(){
             <h1>Aguarde, carregando</h1></div>
             }>
               <div className="container">
-                <ListarUsuarios usuarios={users} />
+                <ListarUsuarios usuarios={await getUsers()} />
               </div>
             </Suspense>
         </div>

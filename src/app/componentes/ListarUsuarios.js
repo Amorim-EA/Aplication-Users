@@ -7,7 +7,7 @@ const ListarUsuarios = async ({usuarios}) => {
     return(
         <div className="containerMestre">
               {
-                usuarios?.map((user) => {
+                usuarios.map((user) => {
                     return(
                     <div className="containerUsers">
                          <div className="imagemUser"></div>

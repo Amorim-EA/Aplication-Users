@@ -39,14 +39,14 @@ img {
    .dashboard {
      display: flex;
      flex-direction: row;
-     gap: 30px;
    }
    
    .container {
        display: flex;
        flex-direction: column;
-       margin-top: 10px;
        gap: 30px;
+       margin: auto;
+       margin-top: 40px;
    }
    
    .titulo {

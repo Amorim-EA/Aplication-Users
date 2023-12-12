@@ -21,9 +21,8 @@ export default function Register() {
     event.preventDefault();
     try{
       await postUser(user);
-      await new Promise((resolve) => {
-        toast.success("Usuário cadastrado com sucesso!!");
-        setTimeout(resolve, 7000);
+      await new Promise(() => {
+        setTimeout(toast.success("Usuário cadastrado com sucesso!!"), 5000);
         push("/pages/dashboard/");
       });
     } catch {
