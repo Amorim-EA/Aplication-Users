@@ -7,7 +7,8 @@ const ListarUsuarios = async ({usuarios}) => {
     return(
         <div className="containerMestre">
               {
-                usuarios.map((user) => {
+                usuarios && (
+                  usuarios.map((user) => {
                     return(
                     <div className="containerUsers">
                          <div className="imagemUser"></div>
@@ -15,8 +16,9 @@ const ListarUsuarios = async ({usuarios}) => {
                          <h4><span>{user.email}</span></h4>
                          <Link className="botaoAlter" href={`/pages/dashboard/alter/${user.id}`}>Alterar</Link>
                      </div>)
-                })
-               }
+                  })
+                 )
+                }
             </div>
     )
 }
